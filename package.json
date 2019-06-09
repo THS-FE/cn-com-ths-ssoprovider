@@ -1,0 +1,28 @@
+{
+  "name": "cn-com-ths-ssoprovider",
+  "version": "1.1.2",
+  "description": "cn-com-ths-ssoprovider",
+  "cordova": {
+    "id": "cn-com-ths-ssoprovider",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "cordova",
+    "cordova-android"
+  ],
+  "scripts": {
+    "test": "npm run jshint",
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests"
+  },
+  "author": "Apache Software Foundation",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  }
+}
